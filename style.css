@@ -96,3 +96,72 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+/* Mobile Screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .todo-app {
+        margin: 50px auto 20px;
+        padding: 20px 15px 50px;
+    }
+
+    .todo-app h2 {
+        font-size: 20px;
+    }
+
+    .todo-app h2 img {
+        width: 24px;
+        margin-left: 8px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: stretch;
+        padding-left: 0;
+        border-radius: 20px;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 15px;
+        padding-left: 40px;
+    }
+
+    ul li::before {
+        height: 22px;
+        width: 22px;
+        top: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .todo-app {
+        margin: 70px auto 20px;
+        padding: 30px 20px 60px;
+    }
+
+    .row {
+        padding-left: 10px;
+    }
+
+    input {
+        font-size: 15px;
+    }
+
+    button {
+        padding: 14px 40px;
+        font-size: 15px;
+    }
+}
