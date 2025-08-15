@@ -97,7 +97,6 @@ ul li span:hover{
     background: #edeef0;
 }
 
-/* Mobile Screens (max-width: 480px) */
 @media (max-width: 480px) {
     .todo-app {
         margin: 50px auto 20px;
